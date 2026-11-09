@@ -1,61 +1,33 @@
-# Linux Homelab 🐧
+# Linux Homelab
 
-A personal hands-on Linux environment built with **Ubuntu running in Oracle VirtualBox**. This repository is my learning journal for exploring Linux, virtualization, networking, and system administration through practical experiments.
+A personal Ubuntu homelab running in Oracle VirtualBox. This repository is a record of the virtual environment I use, its configuration, and the system changes or experiments I make over time.
 
-## Current environment
+The goal is to keep practical work documented in one place—not to publish Linux tutorials or a learning roadmap.
 
-- **Host:** Personal computer
-- **Virtualization:** Oracle VirtualBox
-- **Guest operating system:** Ubuntu
-- **Status:** Ubuntu VM is installed and running
+## Environment
 
-> This repository documents my actual progress. Topics that I have not practised yet are marked as planned rather than completed.
+| Component | Details |
+|---|---|
+| Virtualization platform | Oracle VirtualBox |
+| Guest operating system | Ubuntu |
+| VM status | Installed and running |
+| Host machine details | Not documented yet |
+| VM resource allocation | Not documented yet |
 
-## Repository structure
+## Repository layout
 
 ```text
 linux-homelab/
 ├── README.md
-├── virtualization/
-│   └── virtualbox-setup.md
-├── linux/
-│   ├── basic-commands.md
-│   ├── users-and-permissions.md
-│   └── package-management.md
-├── networking/
-│   └── network-basics.md
-├── system-administration/
-│   └── system-information.md
-├── notes/
-│   └── learning-log.md
+├── docs/
+│   └── current-setup.md
 └── screenshots/
     └── README.md
 ```
 
-## Learning areas
+## Documentation
 
-| Area | Status |
-|---|---|
-| Ubuntu VM setup in VirtualBox | Completed |
-| Linux commands | Learning |
-| Users and permissions | Planned |
-| Package management | Planned |
-| Networking fundamentals | Planned |
-| System administration | Planned |
+- [Current setup](docs/current-setup.md) — details of the Ubuntu virtual machine.
+- [Screenshots](screenshots/README.md) — visual records of the running environment.
 
-## How I document practical work
-
-For each experiment, I aim to record:
-1. What I wanted to learn
-2. The command or configuration used
-3. What the command does
-4. The output or result
-5. Any issue I faced and how I resolved it
-
-## Screenshots
-
-Screenshots of the running VM and terminal outputs will be added to `screenshots/` as I continue working. The current repository does not claim to contain screenshots of the original installation process.
-
-## Disclaimer
-
-This is a personal educational homelab. Experiments are performed on my own virtual machine and systems I am authorised to use.
+As the environment changes, its actual configuration, screenshots, and relevant notes will be updated here. Only configurations and experiments that have genuinely been carried out will be documented.
